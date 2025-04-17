@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite --mode dev",
-    "qa": "vite --mode qa",
-    "uat": "vite --mode uat",
     "prod": "vite --mode prod",
+    "qa": "vite --mode qa",
+    "staging": "vite --mode staging",
+    "uat": "vite --mode uat",
     "build": "tsc -b && vite build --mode prod",
     "lint": "eslint .",
     "preview": "vite preview"
