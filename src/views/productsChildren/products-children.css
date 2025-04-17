@@ -1,0 +1,11 @@
+/*============================ Products Table ============================*/
+.products-children-table img {
+  height: 4rem;
+}
+.products-children-table a {
+  color: #1e90ff;
+}
+
+.products-children-table a:hover {
+  color: #90d6ff;
+}

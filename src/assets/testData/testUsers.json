@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "b803025e-c6bd-4f96-a469-766159bdac4a",
+      "username": "Admin",
+      "email": "admin@example.com",
+      "password": "pass123",
+      "loginMethod": "INTERNAL",
+      "userType": "ADMIN"
+    },
+    {
+      "id": "dc2094f5-9e8a-4f92-a5a6-2f8d4baa90be",
+      "username": "Moe",
+      "email": "moe@example.com",
+      "password": "pass1",
+      "loginMethod": "EXTERNAL",
+      "userType": "USER"
+    },
+    {
+      "id": "1f33ceae-0ee5-4291-83f9-b459c3a99fff",
+      "username": "Larry",
+      "email": "larry@example.com",
+      "password": "pass2",
+      "loginMethod": "EXTERNAL",
+      "userType": "USER"
+    },
+    {
+      "id": "2e75ea91-143f-4aa7-9aa5-195b200b29d0",
+      "username": "Curly",
+      "email": "curly@example.com",
+      "password": "pass3",
+      "loginMethod": "EXTERNAL",
+      "userType": "USER"
+    }
+  ]
+}

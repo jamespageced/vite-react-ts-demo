@@ -1,0 +1,196 @@
+/*================================ Shared ================================*/
+.view-shared {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
+
+/*================================= About ================================*/
+.view-about h2 {
+  text-align: center;
+}
+
+/*=============================== Checkout ===============================*/
+.view-checkout h2 {
+  text-align: center;
+}
+
+/*================================ Contact ===============================*/
+.view-contact h2 {
+  text-align: center;
+}
+
+/*=============================== Dashboard ==============================*/
+.view-dashboard h2 {
+  text-align: center;
+}
+
+/*================================= Home =================================*/
+.view-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8rem;
+  gap: 2rem;
+}
+.view-home div {
+  display: flex;
+  justify-content: center;
+}
+.view-home a {
+  color: #646cff;
+}
+.view-home a:hover {
+  color: #535bf2;
+}
+.view-home img {
+  height: 9.6rem;
+  padding: 2.4rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.view-home img.vite:hover {
+  filter: drop-shadow(0 0 3.2rem #646cffaa);
+}
+.view-home img.react:hover {
+  filter: drop-shadow(0 0 3.2rem #61dafbaa);
+}
+.view-home h1 {
+  text-align: center;
+}
+.view-home button:hover {
+  border-color: #a5a5a5;
+}
+.view-home .read-the-docs {
+  color: #c1c1c1;
+}
+@keyframes home-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .view-home a:nth-of-type(2) img {
+    animation: home-logo-spin infinite 20s linear;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .view-home a:hover {
+    color: #747bff;
+  }
+  .view-home button {
+    background-color: #f9f9f9;
+  }
+}
+
+/*============================= LoadingScreen ============================*/
+.view-loading-screen {
+  text-align: center;
+}
+.view-loading-screen h2 {
+  margin-bottom: 4rem;
+}
+
+/*================================= Login ================================*/
+.view-login {
+  display: flex;
+  justify-content: center;
+}
+.view-select-login-container,
+.view-customer-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+}
+.view-select-login-container {
+  gap: 4rem;
+}
+.view-select-login-container button {
+  width: 100%;
+  max-width: 30rem;
+}
+.view-select-login-container button:hover {
+  border-color: #a5a5a5;
+}
+.view-customer-login-container {
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #424548;
+}
+.view-customer-login-container label {
+  display: flex;
+  justify-content: space-between;
+}
+.view-customer-login-container label {
+  margin-bottom: 2rem;
+}
+.view-customer-login-container button {
+  margin-top: 4rem;
+}
+.view-customer-login-container button:hover {
+  border-color: #a5a5a5;
+}
+
+/*============================ Product Details ===========================*/
+.view-product-details h2 {
+  text-align: center;
+}
+.view-product-details-loading {
+  text-align: center;
+}
+.view-product-details-loading h2 {
+  margin-bottom: 4rem;
+}
+.view-product-details-container-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.view-product-details-container-outer img {
+  height: 10rem;
+  object-fit: contain;
+}
+.view-product-details-container-outer button:hover {
+  border-color: #a5a5a5;
+}
+.view-product-details-container-inner {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+}
+.view-product-details-container-inner p {
+  line-height: 3rem;
+}
+.view-product-details-container-inner span {
+  font-weight: 900;
+}
+
+/*=============================== Products ===============================*/
+.view-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 4rem;
+}
+.view-products-loading {
+  text-align: center;
+}
+.view-products-loading h2 {
+  margin-bottom: 4rem;
+}
+.view-products-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+/*=============================== Resister ===============================*/
+.view-register h2 {
+  text-align: center;
+}
